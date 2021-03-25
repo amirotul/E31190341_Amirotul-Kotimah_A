@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/ImageView"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/amirotul"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Inputkan Email User"
+        android:textSize="16dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:layout_below="@+id/ImageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:id="@+id/editText"/>
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Inputkan Password"
+        android:textSize="16dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:layout_below="@+id/editText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/editText2"/>
+
+    <Button
+        android:layout_width="88dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:hint="MASUK"
+        android:textStyle="bold"
+        android:layout_below="@+id/editText2"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/button" />
+
+    <TextView
+        android:text="Registrasi Jika Belum memiliki Akun"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/button"
+        android:textAlignment="center"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal" />
+
+</RelativeLayout>
