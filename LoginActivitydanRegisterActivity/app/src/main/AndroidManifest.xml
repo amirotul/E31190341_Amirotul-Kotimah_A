@@ -19,5 +19,5 @@
         <activity android:name="com.example.loginactivitydanregisteractivity.MainActivity"/>
         <activity android:name="com.example.loginactivitydanregisteractivity.RegisterActivity"/>
     </application>
-
+    
 </manifest>
