@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="16dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="5dp"
+    android:orientation="vertical"
+    tools:context=".ActivityTentang">
+
+    <FrameLayout
+        android:layout_width="405dp"
+        android:layout_height="45dp"
+        android:background="#8BC34A"
+        >
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="Tentang Kami"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+    </FrameLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/oleh_1" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Selamat Datang di Toko
+
+
+
+        Online Toko Oleh-Oleh"
+        android:textSize="18dp"
+        android:layout_marginTop="8dp"
+        android:textStyle="bold">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Belanja oleh-oleh dengan murah, mudah dan cepat"
+        android:textSize="10dp"
+        android:layout_marginTop="3dp"
+        android:textStyle="normal">
+    </TextView>
+
+    <Button
+        android:id="@+id/btnbelanja"
+        style="@style/CardView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="Belanja sekarang!"
+        app:backgroundTint="#8BC34A" />
+
+
+</LinearLayout>
+

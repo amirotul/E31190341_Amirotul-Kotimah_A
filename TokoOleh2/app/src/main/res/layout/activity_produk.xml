@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="5dp"
+    android:orientation="vertical"
+    tools:context=".ActivityProduk">
+
+    <FrameLayout
+        android:layout_width="405dp"
+        android:layout_height="50dp"
+        android:background="#8BC34A"
+        >
+
+        <TextView
+            android:layout_width="172dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="Produk Kami"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="585dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="178dp"
+            android:layout_height="563dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/id_produk1"
+                android:layout_width="151dp"
+                android:layout_height="132dp"
+                android:layout_gravity="center"
+                android:layout_margin="16dp"
+                android:layout_weight="1"
+                android:src="@drawable/p_1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sirup Pokak" />
+
+
+            <Button
+                android:id="@+id/btnproduk1"
+                style="@style/CardView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="Lihat produk"
+                app:backgroundTint="#8BC34A" />
+
+            <ImageView
+                android:id="@+id/id_produk3"
+                android:layout_width="130dp"
+                android:layout_height="118dp"
+                android:layout_gravity="center"
+                android:layout_margin="16dp"
+                android:layout_weight="1"
+                android:src="@drawable/p_6" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sirup Mangga" />
+
+            <Button
+                android:id="@+id/btnproduk3"
+                style="@style/CardView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="Lihat produk"
+                app:backgroundTint="#8BC34A" />
+
+            <ImageView
+                android:id="@+id/id_produk5"
+                android:layout_width="210dp"
+                android:layout_height="117dp"
+                android:layout_gravity="center"
+                android:layout_margin="16dp"
+                android:layout_weight="1"
+                android:src="@drawable/p_5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sirup Mangga" />
+
+            <Button
+                android:id="@+id/btnproduk5"
+                style="@style/CardView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="Lihat produk"
+                app:backgroundTint="#8BC34A" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="189dp"
+            android:layout_height="561dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/id_produk2"
+                android:layout_width="151dp"
+                android:layout_height="54dp"
+                android:layout_gravity="center"
+                android:layout_margin="16dp"
+                android:layout_weight="1"
+                android:src="@drawable/p_2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sirup Mangga" />
+
+            <Button
+                android:id="@+id/btnproduk2"
+                style="@style/CardView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="Lihat produk"
+                app:backgroundTint="#8BC34A" />
+
+            <ImageView
+                android:id="@+id/id_produk4"
+                android:layout_width="144dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_margin="16dp"
+                android:layout_weight="1"
+                android:src="@drawable/p_4" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sirup Buah Pokak" />
+
+            <Button
+                android:id="@+id/btnproduk4"
+                style="@style/CardView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="Lihat produk"
+                app:backgroundTint="#8BC34A" />
+
+
+            <ImageView
+                android:id="@+id/id_profil"
+                android:layout_width="109dp"
+                android:layout_height="82dp"
+                android:layout_gravity="center"
+                android:layout_margin="16dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

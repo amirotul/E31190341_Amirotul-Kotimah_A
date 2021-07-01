@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tokooleh2">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:name=".Util.AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="MeMe"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TokoOleh2">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".InsertData"/>
+        <activity android:name=".CourseActivity"/>
+        <activity android:name=".ActivityTentang"/>
+        <activity android:name=".ActivityProduk"/>
+        <activity android:name=".ActivityProdukSatu"/>
+        <activity android:name=".ActivityProdukDua"/>
+        <activity android:name=".ActivityProdukTiga"/>
+        <activity android:name=".ActivityProdukEmpat"/>
+        <activity android:name=".ActivityProdukLima"/>
+    </application>
+
+</manifest>
